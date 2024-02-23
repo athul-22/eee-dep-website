@@ -4,6 +4,7 @@ import OutlinedCard from "../components/cards";
 import Grid from "@mui/material/Grid";
 import { FamilyRestroom } from "@mui/icons-material";
 import { fontFamily } from "@mui/system";
+import aboutimage from '../img/pexels-pixabay-256381.jpg';
 
 const Aboutus = () => {
   const gradientStyle = {
@@ -21,9 +22,9 @@ const Aboutus = () => {
       //,
       rightTopContent: (
         <img
-          src="C:\Users\tiger\OneDrive\Documents\EEE\eee-dep-website\src\img"
+          src={aboutimage}
           alt=""
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          style={{ width: "100%", height: "390px", objectFit: "cover" ,borderRadius:'1.4rem'}}
         />
       ),
       rightBottomContent:
